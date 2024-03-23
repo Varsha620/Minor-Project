@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a579fe7cab.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;1,200;1,400&display=swap" rel="stylesheet">
+    <title>Hotel</title>
+</head>
+<body>
+    <section class="hero-section">
+    <div class="hero-text">
+        <h1 >Welcome to Paradise</h1>
+        <p style="font-size: 25px;margin: 10px;">We provide rooms at a very good price along with great amenities to make your living experience awesome</p>
+        <button class="book-button">Book</button>
+    </div>
+    </section>
+    <h1 class="head">About us</h1>
+    <section class="Abt-section">
+        <div class="abt-us">
+            <p>
+                Looking for a vacation to leave behind the hustle of everyday life and indulge in world class hospitality atexotiv locations?Look no further than the leading and fastest growing hotel chain of Easter India.
+            </p>
+            <br>
+            <p>
+                We are currently present at Puri, Manipur, Kerala to make ur well deserved vacation truly unforgettable.
+            </p>
+            <button class="know-button">Know More</button>
+        </div>
+        <div class="amenities">
+            <h3>Aminities we have:</h3>
+            <ul>
+                <li><i class="fa-solid fa-wifi"></i>  High speed Internet</li>
+                <li><i class="fa-solid fa-bowl-food"></i>  Complimentry Brkfst</li>
+                <li><i class="fa-solid fa-person-swimming"></i>  Swimming Pool</li>
+                <li><i class="fa-solid fa-dumbbell"></i>  Gym</li>
+                <li><i class="fa-solid fa-mug-saucer"></i>  Cafeteria</li>
+            </ul>
+        </div>
+
+    </section>
+    <h4 class="room-heading">Room Types</h4>
+    <section class="room-type-container">
+        <div class="room-images">
+            <img src="C:\Users\stuvs\Downloads\rom.jpg" alt="room-images">
+        </div>
+        <div class="room-list">
+            <h3>Single Occupancy Room</h3>
+            <p>A single rrom,lavishly furnished with 1 bathroom and other facilities.</p>
+            <h3>Family Room</h3>
+            <p>A family of maximum of 5, can lavishly enjoy the luxury with other beneficial services for families.</p>
+            <h3>Duplex Room</h3>
+            <p>An ultra luxury with all kinds of survey at a touch. Full sensored with extra security and ac are provided.</p>
+        </div>
+    </section>
+    <div class="help-button">
+        <h4>Need Help?</h4>
+    </div>
+    <h2 class="form-heading">Fill the form for Booking</h2>
+<section class="form-container">
+    <form>
+        <div class="form-group">
+            <label for="name">Your Full Name</label><br>
+            <input type="text" id="name" required>
+        </div>
+        <div class="form-group">
+            <label for="Email id">Email id</label><br>
+            <input type="email" id="Email" required>
+        </div>
+        <div class="form-group">
+            <label for="booking-date">Date of Booking</label><br>
+            <input type="date" id="booking-date" required>
+        </div>
+        <div class="form-group">
+            <label for="room-type">Select Room Type</label> <br>
+            <select name="room-type" id="room-type" required>
+                <option value="" selected disabled>Select...</option>
+                <option value="single-room">Single Room</option>
+                <option value="family-room">Family Room</option>
+                <option value="duplex-room">Duplex Room</option>
+            </select>
+        </div>
+        <input type="submit" value="Book">
+    </form>
+</section>
+
+</body>
+</html>
